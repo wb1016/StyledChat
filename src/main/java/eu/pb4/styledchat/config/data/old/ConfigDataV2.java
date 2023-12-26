@@ -3,9 +3,11 @@ package eu.pb4.styledchat.config.data.old;
 import eu.pb4.predicate.api.BuiltinPredicates;
 import eu.pb4.predicate.api.MinecraftPredicate;
 import eu.pb4.styledchat.config.data.ConfigData;
+import eu.pb4.styledchat.config.data.ConfigData.RequireChatStyleData;
 import net.minecraft.util.Pair;
 
 import java.util.*;
+import java.util.Map.Entry;
 
 public class ConfigDataV2 {
     public static final int VERSION = 2;

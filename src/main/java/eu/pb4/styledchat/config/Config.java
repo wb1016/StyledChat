@@ -4,10 +4,12 @@ package eu.pb4.styledchat.config;
 import eu.pb4.placeholders.api.PlaceholderContext;
 import eu.pb4.placeholders.api.node.TextNode;
 import eu.pb4.placeholders.api.parsers.TextParserV1;
+import eu.pb4.placeholders.api.parsers.TextParserV1.TextTag;
 import eu.pb4.predicate.api.BuiltinPredicates;
 import eu.pb4.predicate.api.PredicateContext;
 import eu.pb4.styledchat.config.data.ChatStyleData;
 import eu.pb4.styledchat.config.data.ConfigData;
+import eu.pb4.styledchat.config.data.ConfigData.RequireChatStyleData;
 import it.unimi.dsi.fastutil.objects.Object2BooleanOpenHashMap;
 import net.minecraft.entity.passive.TameableEntity;
 import net.minecraft.server.command.ServerCommandSource;
@@ -17,6 +19,7 @@ import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.*;
+import java.util.Map.Entry;
 
 public final class Config {
     public final ConfigData configData;

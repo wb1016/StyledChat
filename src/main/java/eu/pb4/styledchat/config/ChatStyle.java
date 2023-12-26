@@ -1,6 +1,8 @@
 package eu.pb4.styledchat.config;
 
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import eu.pb4.placeholders.api.ParserContext;
 import eu.pb4.placeholders.api.PlaceholderContext;
 import eu.pb4.placeholders.api.Placeholders;
 import eu.pb4.placeholders.api.node.EmptyNode;
@@ -26,6 +28,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class ChatStyle {
     public static final ChatStyle EMPTY = new ChatStyle(new ChatStyleData());

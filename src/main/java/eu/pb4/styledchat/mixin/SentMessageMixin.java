@@ -8,6 +8,8 @@ import eu.pb4.styledchat.other.StyledChatSentMessage;
 import net.minecraft.network.message.MessageType;
 import net.minecraft.network.message.SentMessage;
 import net.minecraft.network.message.SignedMessage;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.text.Text;
 import org.apache.commons.lang3.mutable.MutableObject;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

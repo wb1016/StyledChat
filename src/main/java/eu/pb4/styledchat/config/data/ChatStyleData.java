@@ -13,7 +13,9 @@ import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Objects;
+import java.util.Optional;
 
 public class ChatStyleData implements Cloneable {
     public static ChatStyleData DEFAULT = createDefault();

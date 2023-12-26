@@ -4,6 +4,8 @@ import eu.pb4.placeholders.api.PlaceholderContext;
 import eu.pb4.placeholders.api.node.TextNode;
 import eu.pb4.styledchat.config.ConfigManager;
 import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.network.message.MessageType;
+import net.minecraft.network.message.MessageType.Parameters;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerPlayerEntity;
